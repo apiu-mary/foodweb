@@ -1,0 +1,467 @@
+.all{
+    background-image: url(image/gallery_deluxe_1.jpg.webp);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+    
+}
+body{
+  overflow-x: hidden;
+}
+#image1{
+    width: 300px;
+    height: 70%;
+margin-left: 10%;
+    
+}
+#image2{
+    width: 300px;
+    margin-left: 20%;
+}
+#image3{
+    width: 300px;
+    margin-left: 20%;
+    
+    
+}
+.houses{
+  display: flex;
+  padding-left: 15%;
+  
+}
+
+ 
+#house1{
+    width: 300px;
+}
+#house2{
+    
+      
+    width: 300px;
+    }
+    #house3{
+        width: 300px;
+    }
+    .homes{
+        display: flex;
+    }
+    .home1{
+        margin-left: 5%;
+
+    }
+
+.home2{
+    margin-left: 5%;
+
+}
+
+.home3{
+    margin-left: 5%;
+
+}
+.all1{
+    display: flex;
+    
+    
+
+    
+}
+   
+    
+
+.breakfast ul{
+    display: flex;
+    list-style: none;
+}
+#break{
+    position: relative;
+    left: 150px;
+}
+#lunch{
+    position: relative;
+    left: 300px;
+
+
+}
+#dinner{
+    position: relative;
+    left: 400px;
+
+
+
+
+
+}
+.lorems{
+  display: flex;
+  padding-left: 10%;
+  
+}
+.lorem{
+  padding-right: 10%;
+  
+}
+.lorem1{
+  padding-right: 10%;
+  
+}
+.lorem2{
+  padding-right: 10%;
+  
+}
+.money{
+    display: flex;
+
+}
+#imagez1{
+    width: 350px;
+    position: relative;
+    margin-right: 20px;
+}
+.allfood1{
+    display: flex;
+    position: relative;
+    left: 60px;
+}
+#placeholder{
+  width: 150px;
+
+  color: white;
+  border-radius: 8px;
+  position: relative;
+  top: 100px;
+    
+}
+#Subscribe{
+  background-color: blue;
+  border-radius: 8px;
+  width: 70px;
+  position: relative;
+  right: 50px;
+  top: 100px;
+
+
+}
+#newsletter{
+  position: relative;
+  top: 250px;
+  left: 350px;
+  font-size: 15px;
+
+  
+  
+}
+.footer{
+  
+}
+.stori{
+  float: right;
+}
+#fair{
+  float: right;
+}
+.stori1{
+  width: 50%;
+
+
+
+
+}
+    
+    
+
+
+body {
+    text-align: center;
+  }
+  .luxury{
+    
+    font-size: 10px;
+    float: right;
+    
+  }
+  #image{
+    float: left;
+  }
+  .buttons{
+    position: relative;
+    right: 50px;
+  }
+  
+  
+  
+  
+  /* Color will change to blue for smaller devices
+  @media (max-width: 600px) {
+    body {
+      background-color: #87ceeb;
+    }
+  }
+   /*Color will change to blue for smaller devices*/
+   @media (max-width: 320px) {
+    .all {
+      background-color: palevioletred;
+      font-size: 2px;
+      width: 50%;
+    }
+}
+
+@media (max-width:768px){
+    .all {
+      
+      width: 100%;
+      font-size: 20px;
+    }
+}
+
+    @media  (max-width:320px) {
+        .houses {
+        
+          display: grid;
+          
+    
+        
+        
+        
+          
+          
+
+          
+
+        }
+    }
+    @media  (max-width:320px) {
+      #image1{
+      
+        position: relative;
+        left: 170px;
+   
+      }
+  }
+
+@media  (max-width:320px) {
+  #image2{
+  
+    position: relative;
+    left: 170px;
+  }
+}
+@media  (max-width:320px) {
+  #image3{
+  
+    position: relative;
+    left: 170px;
+    
+  }}
+  @media  (min-width:321px) and (max-width:768px) {
+    #image1{
+    
+      position: relative;
+      left: 170px;
+ 
+    }
+}
+
+@media  (min-width:321px) and (max-width:768px) {
+#image2{
+
+  position: relative;
+  left: 170px;
+}
+}
+@media  (min-width:321px) and (max-width:768px) {
+#image3{
+
+  position: relative;
+  left: 170px;
+  
+}}
+  
+    
+    @media  (min-width:321px) and (max-width:768px) {
+        .houses {
+          
+          display: grid;
+
+          
+          
+          font-size: 2rem;
+
+        }
+    }
+    @media (max-width:1024px){
+        .houses {
+          display: grid;
+          position: relative;
+          right: 240px;
+          
+          
+          font-size: 2rem;
+        }
+    }
+    @media (max-width:1200px){
+      .houses {
+        display: grid;
+        width: 100%;
+        font-size: 5px;
+        
+        
+    
+      }
+  }
+
+    @media (min-width: 993px) and(max-width:1200px){
+        .all {
+          
+          
+          font-size: 2rem;
+          
+        }
+    }
+    @media (max-width:320px){
+      .homes {
+        
+        
+        display: grid;
+        
+      }
+  }
+  @media (max-width:768px){
+    .homes {
+      
+      
+      display: grid;
+      
+    }
+}
+@media (max-width:1024px){
+  .homes {
+    
+    
+    
+    display: grid;
+    
+  }
+}
+@media (max-width:1200px){
+  .homes {
+    
+    
+    display: grid;
+    
+  }
+}
+  @media (max-width:320px){
+    .all1 {
+      
+      
+      display: grid;
+      width: 100%;
+      
+    }
+}
+@media (max-width:768px){
+  .all1 {
+    
+    
+    display: grid;
+    width: 100%;
+    
+  }
+}
+@media (max-width:1024px){
+  .all1 {
+    
+    
+    display: grid;
+    width: 100%;
+    
+  }
+}
+@media (max-width:1200px){
+  .all1 {
+    
+    
+    display: grid;
+    width: 100%;
+    
+  }
+}
+@media (max-width:320px){
+  .allfood1{
+    font-size: 10px;
+    position: relative;
+    right: 100px;
+    
+    display: grid;
+    width: 100%;
+    
+  }
+}
+@media (max-width:768px){
+  .allfood1 {
+    display: grid;
+    width: 50%;
+    left: 40px;
+    
+    
+    
+
+  }
+}
+@media (max-width:1024px){
+  .allfood1 {
+    display: grid;
+    width: 50%;
+    left: 50px;
+    
+    
+    
+
+  }
+}
+@media (max-width:1200px){
+  .allfood1 {
+    display: block;
+    width: 80%;
+    left: 50px;
+    
+    
+    
+
+  }
+}
+
+    
+   /* Color will change to blue for smaller devices*/
+   /* @media (max-width: 600px) {
+    .hou
+
+    
+   /* Color will change to blue for smaller devices*/
+   /* @media (max-width: 600px) {
+    .houses {
+      background-color: #87ceeb;
+    }
+  } */
+   /*Color will change to blue for smaller devices*/
+   /* @media (max-width: 600px) {
+    .allfood1 {
+      background-color: #87ceeb;
+    }
+  } */
+   /*Color will change to blue for smaller devices*/
+   /* @media (max-width: 600px) {
+    body {
+      background-color: #87ceeb;
+    }
+  } */
+    */
+  
+  
+
+
+
+ 
